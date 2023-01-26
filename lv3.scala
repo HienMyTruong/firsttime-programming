@@ -45,7 +45,7 @@ object tarningsspel {
   def Start: Unit = 
     slowPrint("Du ska kasta 5 tärningar. Du vinner om du får 5st sexor. Skriv ditt namn: ")
     var Spelare: String = readLine("")
-    while true do                //true = skit i allt bara fortsätt
+    while true do                
       playGame(Spelare) 
       slowPrint("\n \n")
 
